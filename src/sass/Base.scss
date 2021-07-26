@@ -11,6 +11,16 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.966) 50%,
+      rgba(0, 0, 0, 0.604)
+    ),
+    url(../img/background.jpg);
+  background-size: cover;
+  background-position: top;
+  font-size: 16px;
+  color: white;
 }
 
 code {
